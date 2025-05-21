@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Us</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background: linear-gradient(to right, #3498db, #2980b9);
+      font-family: 'Poppins', sans-serif;
+      color: #fff;
+    }
+    .container {
+      max-width: 900px;
+      background-color: #ffffff;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      margin-top: 50px;
+      position: relative;
+    }
+    h2 {
+      font-size: 2.5rem;
+      color: #3498db;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+    h4 {
+      font-size: 1.6rem;
+      color: #333;
+    }
+    p {
+      font-size: 1.1rem;
+      color: #555;
+      line-height: 1.6;
+    }
+    .contact-info a {
+      color: #3498db;
+      text-decoration: none;
+    }
+    .contact-info a:hover {
+      text-decoration: underline;
+    }
+    .social-links a {
+      color: #3498db;
+      text-decoration: none;
+      margin-right: 20px;
+      font-size: 1.3rem;
+      transition: color 0.3s ease-in-out;
+    }
+    .social-links a:hover {
+      color: #2980b9;
+    }
+    .list-unstyled li {
+      margin-bottom: 10px;
+    }
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      padding: 14px;
+      margin-bottom: 15px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      font-size: 1.1rem;
+      transition: border-color 0.3s ease-in-out;
+    }
+    .contact-form input:focus, .contact-form textarea:focus {
+      border-color: #3498db;
+      outline: none;
+    }
+    .contact-form button {
+      background-color: #3498db;
+      color: #fff;
+      padding: 14px 20px;
+      border: none;
+      border-radius: 8px;
+      font-size: 1.2rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease-in-out;
+    }
+    .contact-form button:hover {
+      background-color: #2980b9;
+    }
+    .row {
+      margin-bottom: 30px;
+    }
+    .left-section, .right-section {
+      margin-bottom: 20px;
+    }
+    .left-section h4, .right-section h4 {
+      font-weight: bold;
+      color: #3498db;
+    }
+    .left-section p, .right-section p {
+      color: #666;
+    }
+    .right-section .contact-info, .right-section .social-links {
+      text-align: right;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2 class="text-center mb-4">Contact Us</h2>
+    <p class="text-center mb-5">Have questions or need assistance? We're here to help!</p>
+
+    <!-- Row for Left and Right aligned sections -->
+    <div class="row">
+      <!-- Left Section -->
+      <div class="col-md-6 left-section">
+        <section class="mb-4">
+          <h4>Customer Support</h4>
+          <p>Our dedicated support team is ready to assist you with any inquiries or concerns. Whether it's a technical issue, feedback, or a general question, we're just a message away.</p>
+        </section>
+      </div>
+
+      <!-- Right Section -->
+      <div class="col-md-6 right-section">
+        <section class="mb-4">
+          <h4>Get in Touch</h4>
+          <p>Reach out via email or phone, or use our contact form.<br> We value your feedback and aim to provide the best possible experience.</p>
+          <ul class="list-unstyled contact-info">
+            <li><strong>Email:</strong> <a href="mailto:dawitberiso406@gmail.com">dawitberiso406@gmail.com</a></li>
+            <li><strong>Phone:</strong> <a href="tel:0906639740">0906639740</a></li>
+          </ul>
+        </section>
+      </div>
+    </div>
+
+    <!-- Row for Left and Right aligned sections -->
+    <div class="row">
+      <!-- Left Section -->
+      <div class="col-md-6 left-section">
+        <section class="mb-4">
+          <h4>Stay Connected</h4>
+          <p>Get the latest updates, news, and health tips by following us on social media. Join our growing community on:</p>
+          <div class="social-links">
+            <a href="#" class="facebook">Facebook</a>
+            <a href="#" class="instagram">Instagram</a>
+          </div>
+        </section>
+      </div>
+
+      <!-- Right Section -->
+      <div class="col-md-6 right-section">
+        <section class="mb-4">
+          <h4>Location</h4>
+          <p>Harar, Oromia, Ethiopia – General Hospital</p>
+        </section>
+      </div>
+    </div>
+
+    <section>
+      <h4>Contact Form</h4>
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea rows="4" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
