@@ -48,12 +48,6 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 pip install -r requirements.txt
 python app.py  # or uvicorn main:app --reload if using FastAPI
-
 ```
-
-
----
-
-Would you like the README to include deployment info (like Docker or Vercel/Render) or dataset info if you’re using a public one?
 
 
